@@ -1,0 +1,31 @@
+/* Genral Styles */
+
+@import url("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+:root {
+  /* colours */
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-grey: hsl(0, 0%, 21%);
+  --clr-prime: hsl(212, 100%, 46%);
+  --clr-accent: hsl(210, 98%, 64%);
+
+  /* font size */
+  --fw-reg: 500;
+  --fw-bold: 600;
+}
+/* Set html defaults */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Main */
